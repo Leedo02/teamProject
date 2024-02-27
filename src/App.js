@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import app from './firebase';
 import React, { useEffect, useReducer, useRef, useState } from 'react';
 import styled from 'styled-components';
 import moment from "moment";
